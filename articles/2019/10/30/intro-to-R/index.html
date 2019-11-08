@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>So, you want to be a Data Scientist? - Enrique Rendon's Site</title>
+    <title>Introduction to R - iTrendOn's Site</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,22 +9,21 @@
 
 
 
-<link rel="canonical" href="http://www.enriquerendon.com/drafts/want-to-be-a-data-scientist.html">
+<link rel="canonical" href="http://www.enriquerendon.com/articles/2019/10/30/intro-to-R/">
 
         <meta name="author" content="Enrique Rendon" />
-        <meta name="keywords" content="data-science,statistics,business" />
-        <meta name="description" content="Is it really &#34;the sexiest job of the 21st century&#34;? Steps of a Data Science Project: 1) Understanding the Business Problem 2) Data Acquisition 3) Data Preparation (Cleaning/Transformation) 4) Exploratory Data Analysis 5) Data Modeling 6) Visualization and Communication 7) Deployment and Maintenance Keyword Required? Usage Title Yes title …" />
+        <meta name="keywords" content="R,statistics" />
+        <meta name="description" content="A brief introduction to R programming language..." />
 
-        <meta property="og:site_name" content="Enrique Rendon's Site" />
+        <meta property="og:site_name" content="iTrendOn's Site" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="So, you want to be a Data Scientist?"/>
-        <meta property="og:url" content="http://www.enriquerendon.com/drafts/want-to-be-a-data-scientist.html"/>
-        <meta property="og:description" content="Is it really &#34;the sexiest job of the 21st century&#34;? Steps of a Data Science Project: 1) Understanding the Business Problem 2) Data Acquisition 3) Data Preparation (Cleaning/Transformation) 4) Exploratory Data Analysis 5) Data Modeling 6) Visualization and Communication 7) Deployment and Maintenance Keyword Required? Usage Title Yes title …"/>
-        <meta property="article:published_time" content="2019-10-29" />
+        <meta property="og:title" content="Introduction to R"/>
+        <meta property="og:url" content="http://www.enriquerendon.com/articles/2019/10/30/intro-to-R/"/>
+        <meta property="og:description" content="A brief introduction to R programming language..."/>
+        <meta property="article:published_time" content="2019-10-30" />
             <meta property="article:section" content="blog" />
-            <meta property="article:tag" content="data-science" />
+            <meta property="article:tag" content="R" />
             <meta property="article:tag" content="statistics" />
-            <meta property="article:tag" content="business" />
             <meta property="article:author" content="Enrique Rendon" />
 
 
@@ -37,10 +36,10 @@
     <link rel="stylesheet" href="http://www.enriquerendon.com/theme/css/style.css" type="text/css"/>
 
         <link href="http://www.enriquerendon.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Enrique Rendon's Site ATOM Feed"/>
+              title="iTrendOn's Site ATOM Feed"/>
 
         <link href="http://www.enriquerendon.com/feeds/blog.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Enrique Rendon's Site blog ATOM Feed"/>
+              title="iTrendOn's Site blog ATOM Feed"/>
 </head>
 <body>
 
@@ -54,7 +53,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a href="http://www.enriquerendon.com/" class="navbar-brand">
-Enrique Rendon's Site            </a>
+iTrendOn's Site            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
@@ -64,11 +63,14 @@ Enrique Rendon's Site            </a>
                          <li><a href="http://www.enriquerendon.com/pages/contact/">
                              Contact
                           </a></li>
-                        <li >
-                            <a href="http://www.enriquerendon.com/category/python">Python</a>
+                         <li><a href="http://www.enriquerendon.com/pages/projects/">
+                             Projects
+                          </a></li>
+                        <li class="active">
+                            <a href="http://www.enriquerendon.com/category/blog">Blog</a>
                         </li>
                         <li >
-                            <a href="http://www.enriquerendon.com/category/review">Review</a>
+                            <a href="http://www.enriquerendon.com/category/data-science">Data science</a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -89,10 +91,10 @@ Enrique Rendon's Site            </a>
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="http://www.enriquerendon.com/drafts/want-to-be-a-data-scientist.html"
+                    <a href="http://www.enriquerendon.com/articles/2019/10/30/intro-to-R/"
                        rel="bookmark"
-                       title="Permalink to So, you want to be a Data Scientist?">
-                        So, you want to be a Data Scientist?
+                       title="Permalink to Introduction to R">
+                        Introduction to R
                     </a>
                 </h1>
             </header>
@@ -102,7 +104,7 @@ Enrique Rendon's Site            </a>
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2019-10-29T14:03:00+01:00"> Tue 29 October 2019</time>
+        <i class="fa fa-calendar"></i><time datetime="2019-10-30T16:27:00+01:00"> Wed 30 October 2019</time>
     </span>
 
 
@@ -110,226 +112,131 @@ Enrique Rendon's Site            </a>
 
 
 <span class="label label-default">Tags</span>
-	<a href="http://www.enriquerendon.com/tag/data-science">data-science</a>
+	<a href="http://www.enriquerendon.com/tag/r">R</a>
         /
 	<a href="http://www.enriquerendon.com/tag/statistics">statistics</a>
-        /
-	<a href="http://www.enriquerendon.com/tag/business">business</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>Is it really <a href="https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century">"the sexiest job of the 21st century"</a>?</p>
-<p>Steps of a Data Science Project:</p>
-<p>1) Understanding the Business Problem</p>
-<p>2) Data Acquisition</p>
-<p>3) Data Preparation (Cleaning/Transformation)</p>
-<p>4) Exploratory Data Analysis</p>
-<p>5) Data Modeling</p>
-<p>6) Visualization and Communication</p>
-<p>7) Deployment and Maintenance</p>
-<table>
-<thead>
-<tr>
-<th>Keyword</th>
-<th>Required?</th>
-<th>Usage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Title</td>
-<td>Yes</td>
-<td>title of the blog post</td>
-</tr>
-<tr>
-<td>Author</td>
-<td>Yes</td>
-<td>author of the blog post</td>
-</tr>
-<tr>
-<td>Date</td>
-<td>Yes</td>
-<td>published date in the format YYYY-mm-dd hh:mm</td>
-</tr>
-<tr>
-<td>Modified</td>
-<td>No</td>
-<td>last edit date in the format YYYY-mm-dd hh:mm</td>
-</tr>
-<tr>
-<td>Category</td>
-<td>Yes</td>
-<td>general topic of the blog post</td>
-</tr>
-<tr>
-<td>Tags</td>
-<td>No</td>
-<td>topics covered in the blog post separated by a comma</td>
-</tr>
-<tr>
-<td>Summary</td>
-<td>No</td>
-<td>brief one or two sentence synopsis of the blog post</td>
-</tr>
-<tr>
-<td>Slug</td>
-<td>No</td>
-<td>name of the .html file to be generated. If none is defined the slug will be the post's title separated by "-" symbols</td>
-</tr>
-<tr>
-<td>Status</td>
-<td>No</td>
-<td>choose one of published, draft or hidden</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Metadata</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>title</td>
-<td>Title of the article or page</td>
-</tr>
-<tr>
-<td>date</td>
-<td>Publication date (e.g., YYYY-MM-DD HH:SS)</td>
-</tr>
-<tr>
-<td>modified</td>
-<td>Modification date (e.g., YYYY-MM-DD HH:SS)</td>
-</tr>
-<tr>
-<td>tags</td>
-<td>Content tags, separated by commas</td>
-</tr>
-<tr>
-<td>keywords</td>
-<td>Content keywords, separated by commas (HTML content only)</td>
-</tr>
-<tr>
-<td>category</td>
-<td>Content category (one only — not multiple)</td>
-</tr>
-<tr>
-<td>slug</td>
-<td>Identifier used in URLs and translations</td>
-</tr>
-<tr>
-<td>author</td>
-<td>Content author, when there is only one</td>
-</tr>
-<tr>
-<td>authors</td>
-<td>Content authors, when there are multiple</td>
-</tr>
-<tr>
-<td>summary</td>
-<td>Brief description of content for index pages</td>
-</tr>
-<tr>
-<td>lang</td>
-<td>Content language ID (en, fr, etc.)</td>
-</tr>
-<tr>
-<td>translation</td>
-<td>Is content is a translation of another (true or false)</td>
-</tr>
-<tr>
-<td>status</td>
-<td>Content status: draft, hidden, or published</td>
-</tr>
-<tr>
-<td>template</td>
-<td>Name of template to use to generate content (without extension)</td>
-</tr>
-<tr>
-<td>save_as</td>
-<td>Save content to this relative file path</td>
-</tr>
-<tr>
-<td>url</td>
-<td>URL to use for this article/page</td>
-</tr>
-</tbody>
-</table>
-<p>Basic markdown examples are shown below</p>
-<p>This text is <strong>bold</strong>
-This text is also <strong>bold</strong></p>
-<p>This text is <em>italic</em>
-This text is also <em>italic</em></p>
-<p>This text is <strong><em>italic and bold</em></strong></p>
-<h1>An h1 heading</h1>
-<h2>An h2 heading</h2>
-<h3>An h3 heading...</h3>
-<h6>An h6 heading</h6>
-<p>A list with numbers:
-1. One
-2. Two
-3. Three</p>
-<p>A list with bullets:
-* Bullet
-* Bullet
-* Bullet</p>
-<p>Here's a blockquote:</p>
-<p>&gt; Simple is better than complex</p>
-<p>Here's a table:</p>
-<table>
-<thead>
-<tr>
-<th>Column1</th>
-<th>Column 2</th>
-<th>Column 3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Value 1</td>
-<td>Value 2</td>
-<td>Value 3</td>
-</tr>
-<tr>
-<td>Value 4</td>
-<td>Value 5</td>
-<td>Value 6</td>
-</tr>
-<tr>
-<td>Value 7</td>
-<td>Value 8</td>
-<td>Value 9</td>
-</tr>
-</tbody>
-</table>
-<p>Images can be displayed in Markdown.<br>
-Text within the square brackets is the image name. The path to the image goes between the round brackets.<br>
-The {static} tag indicates the image is stored in the content folder. This setting can be changed in pelicanconf.py.</p>
-<p><img alt="python logo" src="http://www.enriquerendon.com/images/python_icon.png"></p>
-<p>Links to downloadable content such as PDF files are written similarly to image files but with no ! symbol at the beginning.</p>
-<p><a href="http://www.enriquerendon.com/docs/pelican.pdf">Pelican Documentation</a></p>
-<p>A link to a different blog post on our website is written exactly the same.<br>
-Text within the square brackets can be clicked on to travel to the website between the curly brackets.
-The {filename} tag indicates we want to follow the link to a webpage rather than the static file it was generated from.</p>
-<p><a href="http://www.enriquerendon.com/articles/2019/10/27/my-first-article/">First Post</a></p>
-<p>Or we can link to another external website by supplying the web address.</p>
-<p><a href="https://pypi.org">Python Package Index</a></p>
-<p>Code blocks are preceeded by an indent, three : symbols and the name of the language.<br>
-All of the following code will be highlighted while the text is indented.</p>
-<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">do_twice</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
-<span class="k">def</span> <span class="nf">wrapper_do_twice</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
-<span class="k">return</span> <span class="n">wrapper_do_twice</span>
-
-<span class="nd">@do_twice</span>
-<span class="k">def</span> <span class="nf">say_whee</span><span class="p">(</span><span class="n">some_text</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">some_text</span><span class="p">)</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="s1">&#39;Whee!&#39;</span>
-<span class="n">say_whee</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+                <h3>Course Outline</h3>
+<ul>
+<li>Vectors</li>
+<li>Matrices</li>
+<li>Factors</li>
+<li>Data Frames</li>
+<li>Lists</li>
+</ul>
+<h2>Headers</h2>
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h2>Styling</h2>
+<p><em>Emphasize</em>  <em>emphasize</em></p>
+<p><strong>Strong</strong>  <strong>strong</strong></p>
+<p>==Marked text.==</p>
+<p>~~Mistaken text.~~</p>
+<blockquote>
+<p>Quoted text.</p>
+</blockquote>
+<p>H~2~O is a liquid.</p>
+<p>2^10^ is 1024.</p>
+<h2>Lists</h2>
+<ul>
+<li>Item</li>
+<li>Item</li>
+<li>
+<p>Item</p>
+</li>
+<li>
+<p>Item 1</p>
+</li>
+<li>Item 2</li>
+<li>
+<p>Item 3</p>
+</li>
+<li>
+<p>[ ] Incomplete item</p>
+</li>
+<li>[x] Complete item</li>
+</ul>
+<h2>Links</h2>
+<p>A <a href="http://example.com">link</a>.</p>
+<p>An image: <img alt="Alt" src="img.jpg"></p>
+<p>A sized image: <img alt="Alt" src="img.jpg =60x50"></p>
+<h2>Code</h2>
+<p>Some <code>inline code</code>.</p>
+<div class="highlight"><pre><span></span><span class="o">//</span> <span class="n">A</span> <span class="n">code</span> <span class="n">block</span>
+<span class="n">var</span> <span class="n">foo</span> <span class="o">=</span> <span class="s1">&#39;bar&#39;</span><span class="p">;</span>
 </pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="c1">// An highlighted block</span>
+<span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="s1">&#39;bar&#39;</span><span class="p">;</span>
+</pre></div>
+
+
+<h2>Tables</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Computer</td>
+<td>$1600</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>$12</td>
+</tr>
+<tr>
+<td>Pipe</td>
+<td>$1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Column 1</th>
+<th align="right">Column 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">centered</td>
+<td align="right">right-aligned</td>
+</tr>
+</tbody>
+</table>
+<h2>Definition lists</h2>
+<dl>
+<dt>Markdown</dt>
+<dd>Text-to-<abbr title="HyperText Markup Language">HTML</abbr> conversion tool Authors</dd>
+<dd>John</dd>
+<dd>Luke Footnotes</dd>
+</dl>
+<hr>
+<p>Some text with a footnote.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2>Abbreviations</h2>
+<p>Markdown converts text to <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+<h2>LaTeX math</h2>
+<p>The Gamma function satisfying $\Gamma(n) = (n-1)!\quad\forall
+n\in\mathbb N$ is via the Euler integral</p>
+<p>$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$</p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The footnote.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
             </div>
             <!-- /.entry-content -->
     <hr/>
@@ -344,8 +251,8 @@ All of the following code will be highlighted while the text is indented.</p>
             var disqus_config = function () {
                 this.language = "en";
 
-                        this.page.identifier = '2019-10-29-want-to-be-a-data-scientist';
-                        this.page.url = 'http://www.enriquerendon.com/drafts/want-to-be-a-data-scientist.html';
+                        this.page.identifier = '2019-10-30-intro-to-R';
+                        this.page.url = 'http://www.enriquerendon.com/articles/2019/10/30/intro-to-R/';
             };
 
             /* * * DON'T EDIT BELOW THIS LINE * * */
@@ -421,7 +328,7 @@ All of the following code will be highlighted while the text is indented.</p>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2019 Enrique Rendon
+         <div class="col-xs-10">&copy; 2019 Enrique Rendon Fuentes
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>

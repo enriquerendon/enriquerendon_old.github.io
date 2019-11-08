@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>My super title - iTrendOn's Site</title>
+    <title>SAP Product Costing (CO-PC) - iTrendOn's Site</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,21 +9,22 @@
 
 
 
-<link rel="canonical" href="http://www.enriquerendon.com/articles/2019/10/27/my-super-post/">
+<link rel="canonical" href="http://www.enriquerendon.com/articles/2019/10/30/my-sap-co-pc-notes/">
 
         <meta name="author" content="Enrique Rendon" />
-        <meta name="keywords" content="pelican,publishing" />
-        <meta name="description" content="Short version for index and feeds" />
+        <meta name="keywords" content="SAP,markdown,pelican" />
+        <meta name="description" content="A summary of CO-PC notes and experiences." />
 
         <meta property="og:site_name" content="iTrendOn's Site" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="My super title"/>
-        <meta property="og:url" content="http://www.enriquerendon.com/articles/2019/10/27/my-super-post/"/>
-        <meta property="og:description" content="Short version for index and feeds"/>
-        <meta property="article:published_time" content="2019-10-27" />
+        <meta property="og:title" content="SAP Product Costing (CO-PC)"/>
+        <meta property="og:url" content="http://www.enriquerendon.com/articles/2019/10/30/my-sap-co-pc-notes/"/>
+        <meta property="og:description" content="A summary of CO-PC notes and experiences."/>
+        <meta property="article:published_time" content="2019-10-30" />
             <meta property="article:section" content="blog" />
+            <meta property="article:tag" content="SAP" />
+            <meta property="article:tag" content="markdown" />
             <meta property="article:tag" content="pelican" />
-            <meta property="article:tag" content="publishing" />
             <meta property="article:author" content="Enrique Rendon" />
 
 
@@ -91,10 +92,10 @@ iTrendOn's Site            </a>
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="http://www.enriquerendon.com/articles/2019/10/27/my-super-post/"
+                    <a href="http://www.enriquerendon.com/articles/2019/10/30/my-sap-co-pc-notes/"
                        rel="bookmark"
-                       title="Permalink to My super title">
-                        My super title
+                       title="Permalink to SAP Product Costing (CO-PC)">
+                        SAP Product Costing (CO-PC)
                     </a>
                 </h1>
             </header>
@@ -104,7 +105,7 @@ iTrendOn's Site            </a>
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2019-10-27T21:56:00+01:00"> Sun 27 October 2019</time>
+        <i class="fa fa-calendar"></i><time datetime="2019-10-30T16:28:00+01:00"> Wed 30 October 2019</time>
     </span>
 
 
@@ -112,13 +113,162 @@ iTrendOn's Site            </a>
 
 
 <span class="label label-default">Tags</span>
-	<a href="http://www.enriquerendon.com/tag/pelican">pelican</a>
+	<a href="http://www.enriquerendon.com/tag/sap">SAP</a>
         /
-	<a href="http://www.enriquerendon.com/tag/publishing">publishing</a>
+	<a href="http://www.enriquerendon.com/tag/markdown">markdown</a>
+        /
+	<a href="http://www.enriquerendon.com/tag/pelican">pelican</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>This is the content of my super blog post.</p>
+                <h3>Purchased Items</h3>
+<ul>
+<li>Products that you buy and consume or sell without any transformation/manufacturing.</li>
+</ul>
+<h3>Manufactured Products</h3>
+<h2>- Products that required transformation. From Raw --&gt; Finished.</h2>
+<h3>Different Between Price &amp; Cost</h3>
+<ul>
+<li>Price:<ul>
+<li>Money that you pay/collect when buying/selling products to/from vendors/customers.</li>
+</ul>
+</li>
+<li>Cost:
+        - Is the value of your inventory/stocks in your accounting books.
+        - This could include freight, customs, duties, handling, insurance, assembly, etc. (Landed Cost)
+        - Anything required in order to be ready for use.</li>
+</ul>
+<h3>Inventory Methods</h3>
+<ul>
+<li>[V]   Moving average price/periodic unit price</li>
+<li>[S]   Standard price</li>
+</ul>
+<p><img alt="accounting 1" src="http://www.enriquerendon.com/images/MM03_accounting_1.png" title="Display Material &gt;&gt; Accounting 1"></p>
+<h3>Moving Average</h3>
+<ul>
+<li>First In First Out (FIFO)</li>
+<li>Last In Last Out (LIFO)</li>
+</ul>
+<p>The formula for moving average:</p>
+<p>$$
+Moving Average = \frac{Total Stock Value}{Total Stock Quantity}
+$$</p>
+<h3>Standard Costing</h3>
+<ul>
+<li>Actual Costing (Material Ledger)</li>
+</ul>
+<hr>
+<h2>Headers</h2>
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h2>Styling</h2>
+<p><em>Emphasize</em>  <em>emphasize</em></p>
+<p><strong>Strong</strong>  <strong>strong</strong></p>
+<p>==Marked text.==</p>
+<p>~~Mistaken text.~~</p>
+<blockquote>
+<p>Quoted text.</p>
+</blockquote>
+<p>H~2~O is a liquid.</p>
+<p>2^10^ is 1024.</p>
+<h2>Lists</h2>
+<ul>
+<li>Item</li>
+<li>Item</li>
+<li>
+<p>Item</p>
+</li>
+<li>
+<p>Item 1</p>
+</li>
+<li>Item 2</li>
+<li>
+<p>Item 3</p>
+</li>
+<li>
+<p>[ ] Incomplete item</p>
+</li>
+<li>[x] Complete item</li>
+</ul>
+<h2>Links</h2>
+<p>A <a href="http://example.com">link</a>.</p>
+<p>An image: <img alt="Alt" src="img.jpg"></p>
+<p>A sized image: <img alt="Alt" src="img.jpg =60x50"></p>
+<h2>Code</h2>
+<p>Some <code>inline code</code>.</p>
+<div class="highlight"><pre><span></span><span class="o">//</span> <span class="n">A</span> <span class="n">code</span> <span class="n">block</span>
+<span class="n">var</span> <span class="n">foo</span> <span class="o">=</span> <span class="s1">&#39;bar&#39;</span><span class="p">;</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="c1">// An highlighted block</span>
+<span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="s1">&#39;bar&#39;</span><span class="p">;</span>
+</pre></div>
+
+
+<h2>Tables</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Computer</td>
+<td>$1600</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>$12</td>
+</tr>
+<tr>
+<td>Pipe</td>
+<td>$1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Column 1</th>
+<th align="right">Column 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">centered</td>
+<td align="right">right-aligned</td>
+</tr>
+</tbody>
+</table>
+<h2>Definition lists</h2>
+<dl>
+<dt>Markdown</dt>
+<dd>Text-to-<abbr title="HyperText Markup Language">HTML</abbr> conversion tool Authors</dd>
+<dd>John</dd>
+<dd>Luke Footnotes</dd>
+</dl>
+<hr>
+<p>Some text with a footnote.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2>Abbreviations</h2>
+<p>Markdown converts text to <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+<h2>LaTeX math</h2>
+<p>The Gamma function satisfying $\Gamma(n) = (n-1)!\quad\forall
+n\in\mathbb N$ is via the Euler integral</p>
+<p>$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$</p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The footnote.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
             </div>
             <!-- /.entry-content -->
     <hr/>
@@ -133,8 +283,8 @@ iTrendOn's Site            </a>
             var disqus_config = function () {
                 this.language = "en";
 
-                        this.page.identifier = '2019-10-27-my-super-post';
-                        this.page.url = 'http://www.enriquerendon.com/articles/2019/10/27/my-super-post/';
+                        this.page.identifier = '2019-10-30-my-sap-co-pc-notes';
+                        this.page.url = 'http://www.enriquerendon.com/articles/2019/10/30/my-sap-co-pc-notes/';
             };
 
             /* * * DON'T EDIT BELOW THIS LINE * * */
